@@ -8,7 +8,7 @@ Texas Hold Em' Helper is a program designed to help teach players who are new to
 
 To install and use Texas Hold Em' Helper, you will first need to make sure you have [Java](https://www.java.com/en/download/manual.jsp) and [Python](https://apps.microsoft.com/detail/9pnrbtzxmb4z?hl=en-US&gl=US) downloaded on your machine.
 
-When complete, first, download the source code to a desired folder, and extract the contents into a new folder.
+When complete, first, download the source code to a desired folder (You can do this by clicking the bright green '<> Code' button, and clicking 'Download ZIP' from the dropdown menu it creates), and extract the contents into a new folder.
 
 Then, open your Command Prompt. You can do this by searching for it in your Start menu, or by hitting Ctrl + R and typing 'cmd' into the prompt. Hit enter.
 
