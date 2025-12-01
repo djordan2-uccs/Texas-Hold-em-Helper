@@ -4,17 +4,30 @@ Texas Hold Em' Helper is a program designed to help teach players who are new to
 
 ## Installation
 
-To install and use Texas Hold Em' Helper, you will need a Java compiler. Eclipse IDE was used for the development and testing of the program, so it is suggested here.
+(These instructions are intended for Windows machines.)
 
-Download the zipped folder for the program, and extract both the Java and Python pair out into the directory where your compiler runs programs. Creating a new project in your compiler to house both files may be preferrable.
+To install and use Texas Hold Em' Helper, you will first need to make sure you have [Java](https://www.java.com/en/download/manual.jsp) and [Python](https://apps.microsoft.com/detail/9pnrbtzxmb4z?hl=en-US&gl=US) downloaded on your machine.
 
-Once the files are in the compiler, run the program. Further instructions are in the program.
+When complete, first, download the source code to a desired folder, and extract the contents into a new folder.
+
+Then, open your Command Prompt. You can do this by searching for it in your Start menu, or by hitting Ctrl + R and typing 'cmd' into the prompt. Hit enter.
+
+Once the Command Prompt is open, navigate the command prompt to the directory holding the program's files with 'cd'. You can do this by clicking the address bar at the top of the File Explorer, and copying it to your clipboard with Ctrl + C.
+It should look something like this: 'cd C:\...\Downloads\ProjectSourceCode'. Hit enter.
+
+Once the command prompt shows you that you are in the correct file, input these commands in this order. Make sure to wait for the Command Prompt to process before trying to input the next command:
+
+javac *.java
+java CardReader
+
+This will open the program, and you should be able to use the program to evaluate the best moves you could make for your hand.
+
 
 ## Contributions
 
-Please feel free to open any issues you may find with the program. While there is no guarentee it will be dealt with, documentation of any potential problems with the program will be able to help future developers that wish to update or work with the program.
+Please feel free to open any issues you may find with the program. Documentation of any potential problems with the program will be able to help future developers that wish to update or work with the program.
 
-For substantial changes, make sure to open an issue and say what the changes will be before going through with it.
+For substantial changes, make sure to open a ticket and say what the changes will be before going through with it.
 
 ## License
 
