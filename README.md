@@ -13,11 +13,16 @@ When complete, first, download the source code to a desired folder (You can do t
 Then, open your Command Prompt. You can do this by searching for it in your Start menu, or by hitting Ctrl + R and typing 'cmd' into the prompt. Hit enter.
 
 Once the Command Prompt is open, navigate the command prompt to the directory holding the program's files with 'cd'. You can do this by clicking the address bar at the top of the File Explorer, and copying it to your clipboard with Ctrl + C.
-It should look something like this: 'cd C:\...\Downloads\ProjectSourceCode'. Hit enter.
+It should look something like this: 
+
+
+'cd C:\...\Downloads\ProjectSourceCode'. Hit enter.
 
 Once the command prompt shows you that you are in the correct file, input these commands in this order. Make sure to wait for the Command Prompt to process before trying to input the next command:
 
 javac *.java
+
+
 java CardReader
 
 This will open the program, and you should be able to use the program to evaluate the best moves you could make for your hand.
